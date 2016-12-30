@@ -17,4 +17,4 @@ style similar to  Gallery <br/>
   
   the final result:
   
-  ![image](https://github.comSelenaWong/LoopScrollImage/app/src/main/res/drawable-hdpi/loopscrollimage.gif)
+  ![image](https://github.com/SelenaWong/LoopScrollImage/app/src/main/res/drawable-hdpi/loopscrollimage.gif)
