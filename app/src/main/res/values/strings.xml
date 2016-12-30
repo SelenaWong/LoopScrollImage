@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoopScrollImage</string>
+    <string name="drawer_add_product">添加商品</string>
+    <string name="btn_to_purchase">购买</string>
+</resources>

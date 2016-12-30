@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="light_white">#FDFDFD</color>
+	<color name="product_gray">#E05C5C5C</color>
+	<color name="toast_gray">#BEBEBE</color>
+	<color name="background">#eeeeee</color>
+	<color name="blue">#00BBFF</color>
+	<color name="red">#ffff0000</color>
+	<color name="text_black">#333333</color>
+	<color name="text_gray">#c6c6c6</color>
+	<color name="text_darkgray">#666666</color>
+	<color name="text_orange">#fec81c</color>
+	<color name="seperator_line">#e2e2e2</color>
+	<color name="blue_title_bg">#0068b7</color>
+	<color name="green">#22AC38</color>
+	<color name="progress_darkgray">#656565</color>
+	<color name="purchase_darkblue">#0068b7</color>
+	<color name="purchase_blue">#0482e2</color>
+	<color name="payway_orange">#E26610</color>
+	<color name="edit_title_bg">#F5F5F5</color>
+	<color name="edit_btn_bg">#337AB7</color>
+	<color name="aisleinfo_normal">#666666</color>
+	<color name="aisleinfo_stockout">#333333</color>
+	<color name="aisleinfo_improper">#ff4061</color>
+
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+
+	<color name="transparent">#000000</color>
+	<color name="blue_press">#00b7ee</color>
+	<color name="blue_normal">#00a4d6</color>
+	<color name="green_press">#33bd30</color>
+	<color name="green_normal">#2eaa2b</color>
+	<color name="orange_press">#eb6100</color>
+	<color name="orange_normal">#d35700</color>
+	<color name="drawer_bg">#663e4651</color>
+	<color name="cart_product_bg">#E1FFFD</color>
+	<color name="paypowin_text_dark">#222222</color>
+
+	<color name="floralwhite">#FFFAF0</color>
+	<color name="dimgray">#696969</color>
+	<color name="dimgrey">#E22F2F</color>
+	<color name="gray">#E84A40</color>
+	<color name="grey">#808080</color>
+
+
+
+
+</resources>

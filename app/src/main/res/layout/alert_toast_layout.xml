@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1840dp"
+    android:layout_height="72dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tv_alerttoast_content"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:minWidth="200dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingBottom="12dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="12dip"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txtSize_medium"
+        android:background="@drawable/alert_toast_bg"/>
+</LinearLayout>
