@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-/**
- * @author LittleLiByte 
- * ��������
- */
 public class FilmTest {
 
 	public static String[] urls = new String[] {

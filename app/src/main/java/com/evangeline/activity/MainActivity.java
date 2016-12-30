@@ -43,12 +43,11 @@ public class MainActivity extends Activity  {
     @Bind(R.id.tv_product_price)
     TextView mPriceTv;
 
-    private boolean blFirstLauncher = true;
     private MyHandler mHandler;
     private List<Film> mData = new ArrayList<Film>( );
     private CustomApplication app;
     private static String TAG = "MainActivity";
-    private boolean blNeedRefresh = true;
+
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -81,6 +80,11 @@ public class MainActivity extends Activity  {
         loadView( );
     }
 
+    @Override
+    public void onStart() {
+        super.onStart();
+
+    }
     @Override
     protected void onResume() {
         // TODO Auto-generated method stub
@@ -120,9 +124,7 @@ public class MainActivity extends Activity  {
         }
     }
 
-    /*************************************
-     * start UI operate
-     **********************************************************/
+    /************************************** start UI operate********************************************************/
 
     /***
      * @Description add scroll listener to LooperContainer
@@ -175,6 +177,8 @@ public class MainActivity extends Activity  {
         try {
             clearView();
             mPriceTv.setText("");
+            // FilmTest supplys test example but we use images in drawable.
+            // This point can see detial in ProductLooperAdapter
             mData = FilmTest.getProducts();
             mAdapter = new ProductLooperAdapter(this, mData, new ProductLooperAdapter.OnLooperItemClickListener() {
                 @Override
@@ -213,15 +217,8 @@ public class MainActivity extends Activity  {
 
 
 
-    @Override
-    public void onStart() {
-        super.onStart();
 
-    }
-
-    /*************************************
-     * start mqtt
-     ***********************************************************/
+    /********************************check net state*****************************************************/
     private class MyHandler extends Handler {
         public void handleMessage(Message msg) {
             try {

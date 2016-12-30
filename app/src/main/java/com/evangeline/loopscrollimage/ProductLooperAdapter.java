@@ -43,6 +43,8 @@ public class ProductLooperAdapter extends BaseAdapter {
         return data == null ? 0 : data.size();
     }
 
+
+
     @Override
     public View getItemView(final int pos, View itemView, ViewGroup containerView) {
         ViewHolder viewHolder = null;

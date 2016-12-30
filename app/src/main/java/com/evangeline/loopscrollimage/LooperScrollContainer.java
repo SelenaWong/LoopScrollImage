@@ -446,6 +446,12 @@ public class LooperScrollContainer extends ViewGroup {
     	return centerView;
     }
 
+    /***
+     *
+     * @param index
+     * @param totalSize
+     * @Description when user press the keyboard then the mapping image move to screen center.
+     */
     public void aisleKeyEvent( int index,int totalSize){
         if(index!=centerIndex) {
             int offsetIndex =centerIndex-index;
