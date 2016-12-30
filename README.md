@@ -3,7 +3,7 @@
 forked from https://github.com/mufans/LoopScrollCircleLabel
 
 ####summary
-#####functional effect 锛?
+#####functional effect：
 style similar to  Gallery <br/>
 
 - The widget can show images at infinite loop not matter from left or right side. <br/>
@@ -14,3 +14,7 @@ style similar to  Gallery <br/>
 - override adjustViewOrder()<br/>
 - loop style<br/>
   override looperAdapterWrappergetView() <br/>
+  
+  the final result:
+  
+  ![image](https://github.comSelenaWong/LoopScrollImage/app/src/main/res/drawable-hdpi/loopscrollimage.gif)
